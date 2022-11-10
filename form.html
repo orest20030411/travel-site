@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Форма</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Адреса</div>
+            <div class="text-one">м.Львів</div>
+            <div class="text-two">Ангеловича 10</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Номер телефону</div>
+            <div class="text-one">+38(067)-02-28-353</div>
+            <div class="text-two">+38(063)-93-14-283</div>
+          </div>
+          
+        </div>
+
+        <div class="right-side">
+
+          <div class="topic-text">Обрати тур</div>
+
+          <p>
+            Заповніть форму нижче,щоб ми підібрали для вас тур
+          </p>
+
+          <form action="#">
+           <fieldset>
+            <div class="input-box">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <input type="tel" placeholder="Telephone number" />
+            </div>
+            <p>
+              Який тур вам потрібен? :
+              <a href="price.html">  
+              <label><input type="radio" name="fname" value="expensive" /> Дорогий</label>
+              </a>
+              <a href="price.html">
+              <label><input type="radio" name="fname" value="cheap" /> Дешевий</label>
+              </a>
+            </p>
+            <div class="button">
+              <input type="button" value="Send" />
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
