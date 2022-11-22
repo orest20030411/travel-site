@@ -48,7 +48,7 @@ object-fit: cover;
     object-fit: cover;
     left:0px;}
 .body_slides:after { 
-    content: '';
+    content: '';    
     object-fit: cover;
     height: 670px;
     background: transparent url(./assets/images/background.png) repeat top left;}
